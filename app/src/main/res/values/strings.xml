@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">大老二</string>
+    <string name="str_singleGame">單人遊戲</string>
+    <string name="str_multiGame">多人遊戲</string>
+    <string name="str_startGame">開始遊戲</string>
+    <string name="str_setting">遊戲設定</string>
+    <string name="str_pIDDefault">0。unnamed</string>
+    <string name="str_loadingDefault">等待玩家中…(1/4)</string>
+
+</resources>

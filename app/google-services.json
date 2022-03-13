@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55792410310",
+    "firebase_url": "https://dalaoer-c5d03-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dalaoer-c5d03",
+    "storage_bucket": "dalaoer-c5d03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55792410310:android:27c6bc884b9c5f558341c7",
+        "android_client_info": {
+          "package_name": "com.androidapp.hunson.dalaoer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55792410310-b75d58btvpca6jgge807kih64s3mlqne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5cT3zLvpt4YAu6yqdF85B-CVJV5l-rOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55792410310-b75d58btvpca6jgge807kih64s3mlqne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
