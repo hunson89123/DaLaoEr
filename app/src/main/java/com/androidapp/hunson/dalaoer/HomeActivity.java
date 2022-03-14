@@ -53,8 +53,9 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void singleGame(View v) {
-        checkPlayerName();
-        startActivity(new Intent(HomeActivity.this, MainActivity.class));
+//        checkPlayerName();
+        startActivity(new Intent(HomeActivity.this,MainActivity.class));
+//        startActivity(new Intent(HomeActivity.this, MainActivity.class));
     }
 
     public void multiGame(View v) {
@@ -63,6 +64,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void setting(View v) {
+
         iv_background.setImageResource(getResources().getIdentifier("@drawable/pic_home" + i_picHome, null, getPackageName()));
         if (i_picHome < 9) i_picHome++;
         else i_picHome = 0;
