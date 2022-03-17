@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -37,6 +38,8 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        //自動開啟darkMode
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 
         tinyDB = new TinyDB(HomeActivity.this);
 
@@ -70,6 +73,9 @@ public class HomeActivity extends AppCompatActivity {
         else i_picHome = 0;
     }
 
+    public void showAppStruct(View v){
+
+    }
     public void clearTinyDB(View v) {
 //        tinyDB.clear();
 //        Toast.makeText(this, "clear!", Toast.LENGTH_LONG).show();

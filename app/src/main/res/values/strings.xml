@@ -5,7 +5,11 @@
     <string name="str_startGame">開始遊戲</string>
     <string name="str_setting">遊戲設定</string>
     <string name="str_pIDDefault">0。unnamed</string>
-    <string name="str_loadingDefault">等待玩家中…(1/4)</string>
+    <string name="str_showAppStruct"><u>APP架構圖</u></string>
+    <string name="str_loadingDefault">等待玩家中…(-/4)</string>
+    <string name="str_roomIDDefault">房間號碼：-</string>
+    <string name="str_roomPlayerListDefault">玩家：-</string>
     <string name="str_btnTest1">進入牌桌</string>
+    <string name="str_exitRoom">退出房間</string>
 
 </resources>
