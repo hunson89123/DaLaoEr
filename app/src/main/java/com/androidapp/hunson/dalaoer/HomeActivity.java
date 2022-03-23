@@ -2,8 +2,10 @@ package com.androidapp.hunson.dalaoer;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -146,6 +148,22 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+    public void showGitHub(View v){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/hunson89123/DaLaoEr"));
+        startActivity(browserIntent);
+    }
+
+    public void updateApp(View v){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1RiPGrTOaMTAdqm4Yi1BGCny51W3vPt-V/view?usp=sharing"));
+        startActivity(browserIntent);
+    }
+
+    public void showQRCode(View v){
+        AlertDialog.Builder alertadd = new AlertDialog.Builder(HomeActivity.this);
+        LayoutInflater factory = LayoutInflater.from(HomeActivity.this);
+        final View view = factory.inflate(R.layout.qrcode, null);
+        alertadd.show();
+    }
     public void getDBValue(String path) {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference(path);
