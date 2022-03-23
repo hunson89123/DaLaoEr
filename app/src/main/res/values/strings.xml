@@ -11,5 +11,6 @@
     <string name="str_roomPlayerListDefault">玩家：-</string>
     <string name="str_btnTest1">進入牌桌</string>
     <string name="str_exitRoom">退出房間</string>
+    <string name="str_shuffle">洗牌</string>
 
 </resources>
